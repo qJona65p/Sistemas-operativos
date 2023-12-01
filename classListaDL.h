@@ -310,7 +310,6 @@ public:
         else if (buscar < peek_p(mitad)) busquedaBin(inicio, mitad-1, buscar);
         else if (buscar > peek_p(mitad)) busquedaBin(mitad+1, fin, buscar);
     }
-
     void swap_s(int posUno, int posDos) {
         if (vacia()) return;
         // Verificar si las posiciones son validas
